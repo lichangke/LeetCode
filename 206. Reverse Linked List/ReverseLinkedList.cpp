@@ -1,22 +1,23 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * struct ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
  */
 class Solution {
-    public ListNode reverseList(ListNode head) {
-        ListNode cur = head; //当前指针节点
-        ListNode prev = null; //前指针节点
-        ListNode tmp = null;//临时节点
-        while(cur!=null){
-            tmp = cur.next;//临时节点，暂存当前节点的下一节点，用于后移
-            cur.next = prev; //将当前节点指向它前面的节点
-            prev =  cur;//前指针后移
-            cur = tmp;//当前指针后移
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* cur = head;
+        ListNode* prev = NULL;
+        ListNode* temp = NULL;
+        while(cur){
+            temp = cur->next;
+            cur->next = prev;
+            prev = cur;
+            cur = temp;
         }
         return prev;
     }
-}
+};
