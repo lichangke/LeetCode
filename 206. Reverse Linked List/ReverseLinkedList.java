@@ -5,6 +5,8 @@
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
+ * @author:leacoder
+ * @des: 迭代实现 反转链表
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
