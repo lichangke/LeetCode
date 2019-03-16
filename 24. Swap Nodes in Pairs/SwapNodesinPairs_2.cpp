@@ -6,7 +6,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  * @author:leacoder
- * @des: 循环实现 两两交换链表中的节点
+ * @des: 迭代实现 两两交换链表中的节点
  */
 class Solution {
 public:
