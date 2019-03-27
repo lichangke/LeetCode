@@ -8,7 +8,7 @@ class Solution {
         if(k==0){
             return nums;
         }
-        PriorityQueue<Integer> queue = new PriorityQueue<>(k, (a, b) -> {return b-a;});//优先队列
+        PriorityQueue<Integer> queue = new PriorityQueue<>(k, (a, b) -> {return b-a;});//优先队列 顶为最大
         for (int i = 0; i < k; i++) {
             queue.add(nums[i]);
         }
