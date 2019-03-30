@@ -1,5 +1,5 @@
 # @author:leacoder
-# @des:   借助dic 两数之和 O（N）
+# @des:   和固定利用差值diff 两数之和 O（N）
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)-1):#循环  O(N)

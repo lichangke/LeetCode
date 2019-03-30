@@ -1,5 +1,5 @@
 #@author:leacoder
-#@des:  递归,  验证二叉搜索树
+#@des:  递归比较min max,  验证二叉搜索树
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):

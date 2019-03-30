@@ -1,5 +1,5 @@
 # @author:leacoder
-# @des:  非递归  Pow(x, n)
+# @des:  非递归  移位法Pow(x, n)
 
 class Solution:
     def myPow(self, x: float, n: int) -> float:
