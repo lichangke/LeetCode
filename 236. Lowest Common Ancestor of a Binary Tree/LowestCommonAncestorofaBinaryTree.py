@@ -1,5 +1,5 @@
 #@author:leacoder
-#@des:  递归查找法 , 后续遍历 二叉树的最近公共祖先
+#@des:  递归查找法 , 前序遍历 二叉树的最近公共祖先
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
