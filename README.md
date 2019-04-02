@@ -11,7 +11,9 @@ LeetCode Problems' Solutions
 | 22|[Generate Parentheses](https://github.com/lichangke/LeetCode/tree/master/22.%20Generate%20Parentheses)|Python3 |
 |24 |[Swap Nodes in Pairs](https://github.com/lichangke/LeetCode/tree/master/24.%20Swap%20Nodes%20in%20Pairs)|Python3 Java C++ |
 |25|[Reverse Nodes in k-Group](https://github.com/lichangke/LeetCode/tree/master/25.%20Reverse%20Nodes%20in%20k-Group)|C++ |
+|37 |[Sudoku Solver](https://github.com/lichangke/LeetCode/tree/master/37.%20Sudoku%20Solver)|Java |
 |50 |[Pow(x, n)](https://github.com/lichangke/LeetCode/tree/master/50.%20Pow(x%2C%20n))|Python3 |
+| 51|[N-Queens](https://github.com/lichangke/LeetCode/tree/master/51.%20N-Queens)| Python3|
 |98|[Validate Binary Search Tree](https://github.com/lichangke/LeetCode/tree/master/98.%20Validate%20Binary%20Search%20Tree)|Python3 Java |
 |102 |[Binary Tree Level Order Traversal](https://github.com/lichangke/LeetCode/tree/master/102.%20Binary%20Tree%20Level%20Order%20Traversal)| Python3 Java|
 | 104|[Maximum Depth of Binary Tree](https://github.com/lichangke/LeetCode/tree/master/104.%20Maximum%20Depth%20of%20Binary%20Tree)| Python3|
