@@ -10,9 +10,9 @@
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if not root: 
-            return 0  #Check the input parameter
+            return 0  #入参校验
         else: # DFS
-            leftlevel = self.maxDepth(root.left) #  Recursive  Left subtree
-            rightlevel = self.maxDepth(root.right) #  Recursive  Right subtree
-            return 1 + max(leftlevel,rightlevel) # +1 because of the root
+            leftlevel = self.maxDepth(root.left) #  递归 左子树 得到其深度
+            rightlevel = self.maxDepth(root.right) #  递归 右子树 得到其深度
+            return 1 + max(leftlevel,rightlevel) # 取最大深度 
         

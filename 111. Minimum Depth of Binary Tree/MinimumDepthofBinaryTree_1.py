@@ -10,22 +10,22 @@
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if not root: 
-            return 0  #Check the input parameter
+            return 0  ##入参校验
         else: # BFS
             queue = collections.deque()
-            queue.append(root) # Auxiliary queue
-            minlevel = 0 # Record level
+            queue.append(root) # 辅助队列
+            minlevel = 0 # 记录层级
             while queue:
-                levelsize = len(queue)
+                levelsize = len(queue) #记录每层级有多少节点
                 minlevel +=1
                 
-                for i in range(levelsize):
+                for i in range(levelsize): #依次处理出这一层级的节点
                     node = queue.popleft()
                     if node.left:
-                        queue.append(node.left)
+                        queue.append(node.left) #对应左子节点
                     if node.right:
-                        queue.append(node.right)
-                    if not node.left and not node.right: # if the node doesn't have left and right subtree, this level is the Minimum Depth
+                        queue.append(node.right) #对应右子节点
+                    if not node.left and not node.right: # 广度优先搜索下来 如果 左右子节点均没有 那么 这个节点所在层级就是最小深度
                         return minlevel
                 
             

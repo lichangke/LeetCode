@@ -6,16 +6,15 @@ class Solution:
         self.fnrecursive(0,0,n,"")
         return self.list
     
-    # left :the count "(" has been used , right :the count "）" has been used
-    # n the pairs of parentheses , result :   one combinations of well-formed parentheses
+   
+    #left："("左括号被使用次数  right:")"右括号被使用次数 n:可以被使用括号对数  result：有效括号结果
     def fnrecursive(self,left,right,n,result):
-        if left == n and right == n:
+        if left == n and right == n: # 左右括号使用次数均到达n次
             self.list.append(result)
             return
-        # first ,we should put "(" .  if not the combination is bad-formed parentheses
+        # 1、要使括号有效 ，那么我们最先放的是 左括号 ，需要满足left < n
         if left < n:
             self.fnrecursive(left+1,right,n,result + "(")
-        # if left > right and right < n ,then ,we put ")"
-        # if left < right, the combination is bad-formed parentheses
+        # 2、要使括号有效 ，右括号使用次数必然不大于左括号，并且 right < n
         if left > right and right < n: 
             self.fnrecursive(left,right+1,n,result + ")")

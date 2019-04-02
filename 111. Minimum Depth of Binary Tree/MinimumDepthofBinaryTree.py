@@ -10,14 +10,14 @@
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if not root: 
-            return 0  #Check the input parameter
-        if not root.left: # if not have left subtree,check the right subtree
-            return 1 + self.minDepth(root.right) # +1 because of the root
+            return 0  #入参校验
+        if not root.left: # 判断最小深度 如果没有左子叶，需要看右子叶
+            return 1 + self.minDepth(root.right) # +1  因为需要算上root
         if not root.right: # same as root.left
             return 1 + self.minDepth(root.left)
         # divide and conquer
-        leftlevel = self.minDepth(root.left)  # DFS 
+        leftlevel = self.minDepth(root.left)  # 如果 左右子叶都有 深度优先搜索
         rightlevel =  self.minDepth(root.right)
         
         # process subproblem` result
-        return 1 + min(leftlevel,rightlevel) # +1 because of the root
+        return 1 + min(leftlevel,rightlevel) # +1  因为需要算上root
