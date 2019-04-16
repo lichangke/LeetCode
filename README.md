@@ -14,6 +14,7 @@ LeetCode Problems' Solutions
 |37 |[Sudoku Solver](https://github.com/lichangke/LeetCode/tree/master/37.%20Sudoku%20Solver)|Java |
 |50 |[Pow(x, n)](https://github.com/lichangke/LeetCode/tree/master/50.%20Pow(x%2C%20n))|Python3 |
 | 51|[N-Queens](https://github.com/lichangke/LeetCode/tree/master/51.%20N-Queens)| Python3|
+|69|[Sqrt(x)](https://github.com/lichangke/LeetCode/tree/master/69.%20Sqrt(x))|Python3 |
 |98|[Validate Binary Search Tree](https://github.com/lichangke/LeetCode/tree/master/98.%20Validate%20Binary%20Search%20Tree)|Python3 Java |
 |102 |[Binary Tree Level Order Traversal](https://github.com/lichangke/LeetCode/tree/master/102.%20Binary%20Tree%20Level%20Order%20Traversal)| Python3 Java|
 | 104|[Maximum Depth of Binary Tree](https://github.com/lichangke/LeetCode/tree/master/104.%20Maximum%20Depth%20of%20Binary%20Tree)| Python3|
@@ -22,6 +23,7 @@ LeetCode Problems' Solutions
 |141|[Linked List Cycle](https://github.com/lichangke/LeetCode/tree/master/141.%20Linked%20List%20Cycle)|Python3 Java C++|
 |169 |[Majority Element](https://github.com/lichangke/LeetCode/tree/master/169.%20Majority%20Element)| Python3 |
 |206|[Reverse Linked List](https://github.com/lichangke/LeetCode/tree/master/206.%20Reverse%20Linked%20List)|Python3 Java C++ |
+|208|[Implement Trie (Prefix Tree)](https://github.com/lichangke/LeetCode/tree/master/208.%20Implement%20Trie%20(Prefix%20Tree))|Python3 Java |
 |232 |[ Implement Queue using Stacks](https://github.com/lichangke/LeetCode/tree/master/232.%20Implement%20Queue%20using%20Stacks)|Python3 Java C++ |
 | 235|[Lowest Common Ancestor of a Binary Search Tree](https://github.com/lichangke/LeetCode/tree/master/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree)|Python3 |
 |236 |[Lowest Common Ancestor of a Binary Tree](https://github.com/lichangke/LeetCode/tree/master/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree)|Python3 |
