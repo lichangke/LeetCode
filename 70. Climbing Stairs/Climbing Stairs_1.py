@@ -1,5 +1,5 @@
 #@author:leacoder
-#@des:  动态规划  爬楼梯
+#@des:  动态规划 计算所有 f(n) 爬楼梯
 
 class Solution:
     def climbStairs(self, n: int) -> int:
