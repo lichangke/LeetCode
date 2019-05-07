@@ -1,11 +1,11 @@
 # @author:leacoder
-# @des:  动态规划  买卖股票的最佳时机 II  时间复杂度 O（n）
+# @des:  动态规划  买卖股票的最佳时机 II  (通用型) 
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices: return 0
         result = 0
-        # 三维数组 
+        # 二维数组 
         # profit[i][0] 第i天 一直没有股票 的利润
         # profit[i][1] 第i天 当前有股票（ 前面有股票今天不卖 + 前面没股票 今天买入 ） 的利润
         # profit[i][2] 第i天 之前买入现在卖了   （前面有股票 今天卖出 ） 的利润

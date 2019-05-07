@@ -1,5 +1,5 @@
 # @author:leacoder 
-# @des: 动态规划 买卖股票的最佳时机 IV
+# @des: 动态规划 买卖股票的最佳时机 IV(通用型) 
 
 
 class Solution:

@@ -1,5 +1,5 @@
 # @author:leacoder
-# @des:  一次遍历  买卖股票的最佳时机 II  时间复杂度 O（n）
+# @des:  一次遍历  买卖股票的最佳时机 II 
 # 由于一次交易操作 故可以通过记录最小价格 计算最大利润的方式
 
 class Solution:
