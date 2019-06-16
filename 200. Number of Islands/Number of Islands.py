@@ -28,6 +28,7 @@ class UnionFind(object):
         rootx = self.find(x) # 找 x 的 parent
         rooty = self.find(y) # 找 y 的 parent
         if rootx != rooty: # 不同 不在一个集合中
+            ''' 如果不管rank 
             if self.rank[rootx] > self.rank[rooty]:
                 self.parent[rooty] = rootx
             elif self.rank[rootx] < self.rank[rooty]:
@@ -35,6 +36,8 @@ class UnionFind(object):
             else:
                 self.parent[rooty] = rootx
                 self.rank[rootx] += 1
+            '''
+            self.parent[rootx] = rooty # 将两个 合为 同一个 集合中
             self.count -=1  # 每次union  count-1
             
 
