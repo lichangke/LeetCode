@@ -1,5 +1,5 @@
 # @author:leacoder
-# @des:  借助大顶堆原理 滑动窗口最大值
+# @des:  双端队列 滑动窗口最大值
 
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
