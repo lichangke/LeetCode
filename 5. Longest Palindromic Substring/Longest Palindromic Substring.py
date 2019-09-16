@@ -16,7 +16,7 @@ class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
         if 0 == n:
-            return Null
+            return null
         for i in range(n): # i = 0 时为最长子串，长度n ；i = 1时 子串长度n-1子串个数2
             start = 0
             end = n - i # n-i 长度子串中，第一个子串的起始位置
