@@ -1,12 +1,11 @@
 # @author:leacoder
 # @des: 迭代实现 反转链表
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
+'''
+利用哨兵简化操作
+NULL 1 -> 2 -> 3 -> 4 -> 5 ->NULL
+NULL <- 1 <- 2 <- 3 <- 4 <- 5
+'''
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if head is None:
@@ -14,12 +13,11 @@ class Solution:
         prev = None # 利用哨兵
         cur = head
         while cur:
-
             '''
-            tmp = cur.next
-            cur.next = prev
-            prev = cur
-            cur = tmp
+            tmp = cur.next  # 我们要操作 cur ，断开其 next 指向的结点重新指向新的结点，这里先记录 cur.next 结点
+            cur.next = prev # 重新 指向 cur.next 的结点为 prev
+            prev = cur  # prev 指向后移
+            cur = tmp   # cur 指向后移，后移的结点重复之前操作
             使用python 语法糖 简化
             '''
             cur.next, prev, cur = prev, cur ,cur.next
