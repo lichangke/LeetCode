@@ -35,10 +35,10 @@ class Solution:
             return head
         # 递归前处理 ， 本题不做任何操作
         # 递归
-        p = self.reverseList(head.next)
+        p = self.reverseList(head.next)  # 递归 返回值为 最底层 的 头结点
         head.next.next = head
         head.next = None
-        return p
+        return p # 返回最底层 的 头结点
 
 
 
