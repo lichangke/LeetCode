@@ -1,6 +1,6 @@
 [ https://leetcode-cn.com/problems/reverse-linked-list/ ](https://leetcode-cn.com/problems/reverse-linked-list/ )
 
-反转一个单链表。
+206 反转一个单链表。
 
 示例:
 
