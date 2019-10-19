@@ -31,7 +31,6 @@ class Solution:
             return head
         # 递归前处理：
         next = head.next
-
         # 递归
         resultmp = self.swapPairs(next.next) # 下移两位  返回值为两两交换后  两个节点中的前一个节点
         head.next = resultmp  # 两两交换
