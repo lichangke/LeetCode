@@ -24,7 +24,7 @@ next = head.next
 
 递归（递归到下一层）：
 下两位，使用递归前处理的 next
-p = reverseList(next.next)   题 25. K 个一组翻转链表 则 会有不同 
+p = swapPairs(next.next)   题 25. K 个一组翻转链表 则 会有不同 
 
 递归后处理（下层递归返回后处理）：
 

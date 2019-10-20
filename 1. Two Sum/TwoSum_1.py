@@ -1,9 +1,9 @@
 # @author:leacoder
-# @des:   和固定利用差值diff 两数之和 O（N）
+# @des:   和固定利用差值diff 两数之和 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i in range(len(nums)-1):#循环  O(N)
+        for i in range(len(nums)-1):
             diff = target - nums[i]
-            if diff in nums[i+1:]: #O(1)
+            if diff in nums[i+1:]: 
                 return [i,nums[i+1:].index(diff)+i+1]
         return []

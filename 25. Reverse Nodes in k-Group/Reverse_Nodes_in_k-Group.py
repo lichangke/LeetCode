@@ -32,8 +32,6 @@ prev 下移 end 下移
 迭代后处理：
 无
 
-时间复杂度为 O(n*K) 最好的情况为 O(n) 最差的情况未 O(n^2)
-
 '''
 
 class Solution:
