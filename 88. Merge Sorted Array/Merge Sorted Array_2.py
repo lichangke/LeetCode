@@ -1,6 +1,6 @@
 # @author:leacoder
 # @des:  三指针 从后往前 合并两个有序数组
-
+# 时间复杂度 : O(n + m)
 
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
