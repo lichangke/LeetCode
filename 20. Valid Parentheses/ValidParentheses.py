@@ -1,5 +1,15 @@
 # @author:leacoder
-# @des: 堆栈实现 有效的括号
+# @des: 借助栈 有效的括号
+
+'''
+借助栈 stack
+遍历 s
+遇左括号入栈
+遇右括号，与栈顶元素比较，是否匹配
+    匹配 删除栈顶元素
+    不匹配 失败返回
+直到 s 遍历完
+'''
 
 class Solution:
     def isValid(self, s: str) -> bool:
