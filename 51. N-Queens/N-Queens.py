@@ -1,6 +1,7 @@
 # @author:leacoder 
 # @des:  DFS 深度优先  N皇后
 
+
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         if n < 1 : return []  #

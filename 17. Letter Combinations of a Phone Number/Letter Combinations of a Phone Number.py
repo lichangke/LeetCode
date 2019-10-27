@@ -1,5 +1,5 @@
 #@author:leacoder
-#@des:  暴力法递归  电话号码的字母组合
+#@des:  递归  电话号码的字母组合
 
 """
 递归处理digits字符串中的每个字符
@@ -24,6 +24,7 @@ class Solution:
         if digits:
             self.recursive("",digits)	# "" 字母组合 最开始为"" , digits 待处理的字符串（处理后剩下的）
         return self.output
+
 
     #递归函数 
     # combination，上一层处理后的到的字母组合

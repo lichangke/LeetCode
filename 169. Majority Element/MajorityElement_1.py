@@ -1,6 +1,8 @@
 # @author:leacoder
 # @des:  dic 求众数
-
+'''
+统计出现的次数
+'''
 class Solution:
     def majorityElement(self, nums: List[int]) -> int: 
         dic = {}
