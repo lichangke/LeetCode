@@ -12,6 +12,8 @@ class Solution:
         if left == n and right == n: # 左右括号使用次数均到达n次
             self.list.append(result)
             return
+        
+        # 剪支
         # 1、要使括号有效 ，那么我们最先放的是 左括号 ，需要满足left < n
         if left < n:
             self.fnrecursive(left+1,right,n,result + "(")

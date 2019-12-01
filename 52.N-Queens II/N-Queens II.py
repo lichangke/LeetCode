@@ -11,7 +11,7 @@ class Solution:
         if row >= n: #递归终止条件  深度搜索 n 个皇后均已放在棋盘上
             self.count += 1
             return
-        # col | pie | na  (1 表示被攻击, 或了以后 等到本行 所有被攻击位置 )
+        # col | pie | na  (1 表示被攻击, 或了以后 得到本行 所有被攻击位置 )
         # ~( col | pie | na )  0 表示被攻击位  1 表示可放置位
         # (( 1<<n ) - 1)   形成 n位全1的二进制 筛子  用于 筛选出 n 位内的有效数据
         bits = ( ~( cols | pie | na )) & (( 1<<n ) - 1)
