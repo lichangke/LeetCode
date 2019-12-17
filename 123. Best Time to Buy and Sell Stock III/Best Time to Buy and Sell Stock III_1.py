@@ -1,14 +1,13 @@
-# @author:leacoder 
-# @des: 动态规划 买卖股票的最佳时机 IV(通用型) 
+# @author:leacoder
+# @des:  动态规划  买卖股票的最佳时机 III(通用型)
 
 
 class Solution:
-    def maxProfit(self, k: int, prices: List[int]) -> int:
+    def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
         if n <= 1: return 0
-        if k > int(n / 2):  # 会超时
-            # k = int(n/2)
-            return self.greedy(prices)  # 使用贪心
+
+        k = 2
 
         maxprof = 0
         profit = [[[0 for _ in range(2)] for _ in range(k + 1)] for _ in
@@ -28,11 +27,5 @@ class Solution:
                 # 今天完成kk次操作有股票  max(前一天有股票今天不交易，前一天无股票今天买入) 以买入算一次交易
                 profit[ii][kk][1] = max(profit[ii - 1][kk][1], profit[ii - 1][kk - 1][0] - prices[ii])
                 maxprof = max(maxprof, profit[ii][kk][0])
-        return maxprof
 
-    def greedy(self, prices: List[int]) -> int:
-        max = 0
-        for i in range(1, len(prices)):
-            if prices[i] > prices[i - 1]:
-                max += prices[i] - prices[i - 1]
-        return max
+        return maxprof
