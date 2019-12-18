@@ -8,4 +8,5 @@ LeetCode Problems' Solutions
 | ----|-----|--------|-----|-----| ----|-------|
 |  | | | | | | |
 |11|中等|盛最多水的容器|[盛最多水的容器_CSDN](https://blog.csdn.net/leacock1991/article/details/100905274)|[盛最多水的容器_GitHub](https://github.com/lichangke/LeetCode/tree/master/11.%20Container%20With%20Most%20Water)|[LeetCode 11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)| Python |
+|70|简单|爬楼梯|[爬楼梯_CSDN](https://blog.csdn.net/leacock1991/article/details/103040312) | [爬楼梯_GitHub](https://github.com/lichangke/LeetCode/tree/master/70.%20Climbing%20Stairs)| [LeetCode 70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)| Python |
 |283 |简单|移动零| [移动零_CSDN](https://blog.csdn.net/leacock1991/article/details/103040147) | [移动零_GitHub](https://github.com/lichangke/LeetCode/tree/master/283.%20Move%20Zeroes) | [LeetCode 283.移动零](https://leetcode-cn.com/problems/move-zeroes/ )| Python |
