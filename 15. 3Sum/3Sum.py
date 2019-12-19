@@ -10,7 +10,7 @@ class Solution(object):
                 continue
                 
             new_nums = nums[i+1:] #剔除 一层循环后的数 
-            two_sums = self.twoSum(new_nums, -num) #由于何为0  两数之和要为 -num
+            two_sums = self.twoSum(new_nums, -num) #由于和为0  两数之和要为 -num
             for two_sum in two_sums:
                 res.append([num, new_nums[two_sum[0]], new_nums[two_sum[1]]])
                          
